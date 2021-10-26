@@ -1,0 +1,109 @@
+
+Jenkins :
+###############
+
+Useful URLs:
+https://www.lambdatest.com/blog/jenkins-pipeline-tutorial/  ### Jenkins pipeline tutorial 
+https://linuxize.com/post/how-to-install-jenkins-on-centos-7/ ### Install jenkins on rhel7
+https://www.youtube.com/watch?v=2AVp9kie6s8&t=475s          ### Jenkins interview questions by Edureka 
+https://www.youtube.com/watch?v=7KCS70sCoK0 				### Jenkins pipeline tutoral with jenkins file explanation by nana
+https://www.youtube.com/watch?v=FX322RVNGj4                 ### Jenkins full course by simplylearn 
+https://www.youtube.com/watch?v=XE8UgvwEgOw                 ### Create a simple pipeline using Jenkins, git and AWS #COMPLETE 
+https://www.youtube.com/watch?v=Tk7_KBxLUy0					### Part 2 of pipeline creation video 
+
+https://www.jenkins.io/doc/book/pipeline/syntax/     ### Jenkins pipeline syntax 
+https://www.jenkins.io/doc/pipeline/steps/workflow-basic-steps/    ### Jenkins pipeline basic steps 
+
+https://github.com/jenkins-docs/simple-java-maven-app    ### basic java maven app on github 
+
+
+############################################
+1. is a CI (Continous Integration) tool.
+
+2. Dev submits code to shared repo like Git and Git submits code to CI server like Jenkins.
+Dev -> Git -> CI server (Jenkins) 
+
+3. Other similar CI tools are Bamboo, TeamCity, TFS etc.
+
+4. Jenkins was originally known as "Hudson" but later renamed to Jenkins.
+* Hudson was acquired by Oracle.
+
+5. Jenkins is an open source project written in Java. 
+
+6. Jenkins is a self contained Java based program.
+
+7. Features of Jenkins:
+	Easy installation
+	Easy configuration 
+	Plugins 
+	Extensible 
+	Distributed
+
+8. "CloudBees" is the enterprise Jenkins product.
+
+9. CI/CD pipeline flow:
+
+Development --> Code Commit-->Build-->Test-->Release-->Deploy/Deliver-->Production 
+
+10. What are the prerequisites for using Jenkins?
+	1) A source code repo which is accessible, for example GIT 
+	2) A working build script, e.g. a maven script checked into the repository.
+	
+11. Mention some useful plugins of Jenkins?
+	1) Maven2 project 
+	2) Git 
+	3) Amazon EC2 
+	4) HTML Publisher 
+	5) Copy artifact 
+	6) Join 
+	7) Green balls
+	8) VScode - bracket coloriser plugin for higlighting curly braces fro pipeline scripts.
+	
+12. Install Jenkins
+		1. Install Java V8 
+		2. Install Apache Tomcat V9 
+		3. Download Jenkins WAR file 
+		4. Deploy Jenkins WAR file 
+		5. INstall suggested plugins 
+		
+13. What are the 2 components Jenkins is mainly integrated with?
+	- GIT 
+	- Maven 
+	
+14. What is Maven? What is benefit of integrating Maven with Jenkins?
+	- Maven is a build management tool. It uses a simple pom.xml to configure all the dependencies needed to build, test 
+	and run the code.
+	- Maven manages the full lifecycle of the project.
+	- Used to build Jar files.
+	- Maven needs to be installed on the Jenkins machine 
+	$ yum install maven -y 
+	
+	
+15. What is Groovy?
+	- Groovy from Apache is a language designed for the Java platform.
+	It's the native scripting language for Jenkins.
+	Groovy based plugins enhance Jenkins with great interfaces and build reports that are of dynamic and consistent nature.
+	
+16. Explain how you can set up a Jenkins job?
+	1) Firstly mention "how to create a Jenkins job"
+	2) Now discuss the elements of this Job.
+	
+17. Default port on which Jenkins WebUI runs - 8080 
+
+18. Pipeline:
+		1. "agent any" - means on which node or Jenkins slave the pipeline needs to be run on. 
+		Since we dont have any Jenkins slave machine so pipeline will run on Jenkins master machine only.
+	
+		2. For debugging pipelines - the "Replay" option is very useful. 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
